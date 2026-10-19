@@ -20,7 +20,7 @@ main section{
     height: 725px;
 }
 body {
-    background-color: #bbe4ff; 
+    background-color: #ff0404; 
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -37,7 +37,7 @@ nav a:hover {
 }
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    color: #f30707;
     text-decoration: none;
 }  
 footer p {
@@ -58,7 +58,7 @@ footer {
   line-height: 1.5em;
 }
 body {
-    background-color: #fcfbfb;
+    background-color: #50a4f3;
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -141,11 +141,10 @@ nav {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(9, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(10, 1fr);
+    
 }
-.card-img, .mountains {
+.card-img, .mountains{
     width: 100%;
 }
 .rivers-card {
@@ -164,13 +163,9 @@ nav {
     grid-column: 1 / 11;
     grid-row: 4 / 9;
 }
-.adventure-card {
+.mountains {
     grid-column: 2 / 7;
     grid-row: 5 / 8;
-}
-.msg {
-    grid-column: 6 / 10;
-    grid-row: 6 / 7;
 }
 footer {
     background-color: #6f7364;
@@ -191,17 +186,13 @@ footer {
 }
 .msg {
     background-color: #6f7364;
+    line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.mountains {
-    width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
-}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
