@@ -1,0 +1,16 @@
+/* Add your CSS here to style your halloween page */
+body {
+    background-color: #7157ff; 
+}
+header {
+    background-color:#b78aff;
+}
+.ul li {
+    text-align: center;
+}
+footer {
+    background-color:#b78aff;
+}
+footer p {
+    font-size: 1.2em;
+} 
