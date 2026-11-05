@@ -1,0 +1,57 @@
+/* ---------- DENMARK ---------- */
+/* 2x2 grid of red squares; the gaps show the white background as the cross */
+#denmark {
+  grid-column: 3 / 4;
+  display: grid;
+  grid-template-columns: 12fr 21fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 32px;
+  width: 300px;
+  height: 227px;
+  background: white;
+}
+
+#dred1, #dred2, #dred3, #dred4 {
+  background: red;
+}
+
+/* ---------- FINLAND ---------- */
+/* 2x2 grid of white squares; the gaps show the blue background as the cross */
+#finland {
+  grid-column: 3 / 4;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px;
+  width: 300px;
+  height: 183px;
+  background: blue;
+}
+
+#fwhite1, #fwhite2, #fwhite3, #fwhite4 {
+  background: white;
+}
+
+/* ---------- BENIN ---------- */
+/* Green spans both rows on the left; yellow sits above red on the right */
+#benin {
+  grid-column: 3 / 4;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr 1fr;
+  width: 300px;
+  height: 200px;
+}
+
+#bgreen {
+  background: green;
+  grid-row: 1 / 3;
+}
+
+#byellow {
+  background: yellow;
+}
+
+#bred {
+  background: red;
+}
